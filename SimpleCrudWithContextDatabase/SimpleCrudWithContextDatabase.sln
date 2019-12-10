@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCrudWithContextDatabase", "SimpleCrudWithContextDatabase.csproj", "{D7ACD3A8-F356-40B3-9044-D1AEDE97996C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7ACD3A8-F356-40B3-9044-D1AEDE97996C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7ACD3A8-F356-40B3-9044-D1AEDE97996C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7ACD3A8-F356-40B3-9044-D1AEDE97996C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7ACD3A8-F356-40B3-9044-D1AEDE97996C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2D332EE-3F0E-4440-9B6A-CF2DAF8B25B7}
+	EndGlobalSection
+EndGlobal
