@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\DevelopGadget\\Projects\\Remember-NetCore\\SimpleCrudWithContextDatabase\\SimpleCrudWithContextDatabase.csproj": {}
+    "C:\\Users\\DevelopGadget\\Projects\\Remember-NetCore\\SimpleCrudWithContextDatabase\\SimpleCrudWithContextDatabase.csproj": {}
   },
   "projects": {
-    "c:\\Users\\DevelopGadget\\Projects\\Remember-NetCore\\SimpleCrudWithContextDatabase\\SimpleCrudWithContextDatabase.csproj": {
+    "C:\\Users\\DevelopGadget\\Projects\\Remember-NetCore\\SimpleCrudWithContextDatabase\\SimpleCrudWithContextDatabase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\DevelopGadget\\Projects\\Remember-NetCore\\SimpleCrudWithContextDatabase\\SimpleCrudWithContextDatabase.csproj",
+        "projectUniqueName": "C:\\Users\\DevelopGadget\\Projects\\Remember-NetCore\\SimpleCrudWithContextDatabase\\SimpleCrudWithContextDatabase.csproj",
         "projectName": "SimpleCrudWithContextDatabase",
-        "projectPath": "c:\\Users\\DevelopGadget\\Projects\\Remember-NetCore\\SimpleCrudWithContextDatabase\\SimpleCrudWithContextDatabase.csproj",
+        "projectPath": "C:\\Users\\DevelopGadget\\Projects\\Remember-NetCore\\SimpleCrudWithContextDatabase\\SimpleCrudWithContextDatabase.csproj",
         "packagesPath": "C:\\Users\\DevelopGadget\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\DevelopGadget\\Projects\\Remember-NetCore\\SimpleCrudWithContextDatabase\\obj\\",
+        "outputPath": "C:\\Users\\DevelopGadget\\Projects\\Remember-NetCore\\SimpleCrudWithContextDatabase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DevelopGadget\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

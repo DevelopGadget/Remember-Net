@@ -29,6 +29,7 @@ namespace SimpleCrud {
                         builder.WithOrigins ("https://localhost:5001").AllowAnyHeader ().AllowAnyMethod ();
                     });
             });
+            
             // Add framework services.
             services.AddMvc ().SetCompatibilityVersion (CompatibilityVersion.Version_2_2);
         }
