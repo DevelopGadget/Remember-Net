@@ -29,7 +29,7 @@ namespace SimpleCrudWithSQLDatabase
         {
             // using Microsoft.EntityFrameworkCore;
             services.AddDbContext<GamesDBContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
             
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
             services.AddControllers();
