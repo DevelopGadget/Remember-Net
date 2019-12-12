@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\DevelopGadget\\Projects\\Remember-NetCore\\SimpleCrudWithContextDatabase\\SimpleCrudWithContextDatabase.csproj": {}
+    "C:\\Users\\DevelopGadget\\Projects\\Remember-NetCore\\SimpleCrudWithSQLDatabase\\SimpleCrudWithSQLDatabase.csproj": {}
   },
   "projects": {
-    "c:\\Users\\DevelopGadget\\Projects\\Remember-NetCore\\SimpleCrudWithContextDatabase\\SimpleCrudWithContextDatabase.csproj": {
+    "C:\\Users\\DevelopGadget\\Projects\\Remember-NetCore\\SimpleCrudWithSQLDatabase\\SimpleCrudWithSQLDatabase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\DevelopGadget\\Projects\\Remember-NetCore\\SimpleCrudWithContextDatabase\\SimpleCrudWithContextDatabase.csproj",
-        "projectName": "SimpleCrudWithContextDatabase",
-        "projectPath": "c:\\Users\\DevelopGadget\\Projects\\Remember-NetCore\\SimpleCrudWithContextDatabase\\SimpleCrudWithContextDatabase.csproj",
+        "projectUniqueName": "C:\\Users\\DevelopGadget\\Projects\\Remember-NetCore\\SimpleCrudWithSQLDatabase\\SimpleCrudWithSQLDatabase.csproj",
+        "projectName": "SimpleCrudWithSQLDatabase",
+        "projectPath": "C:\\Users\\DevelopGadget\\Projects\\Remember-NetCore\\SimpleCrudWithSQLDatabase\\SimpleCrudWithSQLDatabase.csproj",
         "packagesPath": "C:\\Users\\DevelopGadget\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\DevelopGadget\\Projects\\Remember-NetCore\\SimpleCrudWithContextDatabase\\obj\\",
+        "outputPath": "C:\\Users\\DevelopGadget\\Projects\\Remember-NetCore\\SimpleCrudWithSQLDatabase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DevelopGadget\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,11 +42,13 @@
               "target": "Package",
               "version": "[3.1.0, )"
             },
-            "Microsoft.EntityFrameworkCore.InMemory": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.0, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.0, )"
             }
